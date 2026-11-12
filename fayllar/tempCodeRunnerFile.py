@@ -1,0 +1,1 @@
+    # print(f"{qator}\n")

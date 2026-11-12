@@ -1,0 +1,234 @@
+# 1-masala
+
+# son=int(input())
+
+# if son%2==0:
+#     print(f"{son}-juft son")
+# else :
+#     print(f"{son}-toq son")
+
+# # 3-masala
+
+# matn=input()
+# print(matn[::-1])
+
+# # 5-masala
+
+# son=int(input("sonni kiriting: "))
+
+# if 100>=son>=90:
+#     print("bahoyingiz -  A")
+# elif 89>=son>=70:
+#         print("bahoyingiz -  B")
+# elif 69>=son>=50:
+#         print("bahoyingiz -  C")
+# elif son<50:
+#         print(" bahoyingiz -  F")
+# else :
+#     print("Noto'g'ri ball!!!")
+
+# # 6-masala
+
+# id=input("ID ni kiriting: ")
+
+# yil=id[:4]    
+# raqam=id[4:]
+# print(f"""yil - {yil}
+# raqam - {raqam}""")
+
+# 7-masala
+
+# a=int (input("a sonni kiriting: "))
+# b=int (input("b sonni kiriting: "))
+# c=int (input("c sonni kiriting: "))
+
+# if a+b<=c or b+c<=a or a+c<=b:
+#     print("bunday uchburchak mavjud emas!!!")
+# else :    
+#     if a==b and a==c:
+#         print("teng tomonli")
+#     elif a==b and a!=c:
+#         print("teng yonli")
+#     elif a==c and a!=b:
+#         print("teng yonli")
+#     elif b==c and a!=c:
+#         print("teng yonli")
+#     else:
+#         print("turli tomonli")
+
+# 8-masala
+
+# email=input("emailni kiriting to'liq shsaklda (masalan: ali@najottalim.uz) ")
+
+# indeks=email.find("@")
+
+# print(f"domen: {email[indeks+1:]}")
+
+# 9-masala
+
+# narx=float(input("narx: "))
+# azo=bool(input("azomi? "))
+
+# if azo:
+#     narx=0.85*narx
+# else:
+#     narx*=0.95
+
+# print(f"Yakuniy narx: {narx:.2f} so'm")
+
+# 10-masala
+
+# parol=input("parol: ")
+
+# son_bormi=0
+
+# if len(parol)>=8:
+#     for i in range(len(parol)):
+#         if parol[i] in "1234567890":
+#             son_bormi+=1
+#     if son_bormi==0:
+#         print("raqam ham kiriting")
+#     else:
+#         print("yaxshi parol")
+# else :
+#     print("kuchsiz parol")
+
+# 11-masala
+
+# yosh = int(input("yoshni kiriting: "))
+
+# if 0 <= yosh <= 12:
+#     toifa = "bola"
+# elif 13 <= yosh <= 19:
+#     toifa = "o'smir"
+# elif 20 <= yosh <= 59:
+#     toifa = "kattalar"
+# elif yosh >= 60:
+#     toifa = "keksa"
+# else:
+#     toifa = "Noto'g'ri yosh"
+
+# print(f"Yosh: {yosh}, toifa: {toifa}")
+
+#  12-masala
+
+# ism=input("ism: ")
+# familya=input("surname: ")
+
+# bosh_ism=ism[:1].upper()
+# bosh_fam=familya[:1].upper()
+
+# print(f"{bosh_ism}.{bosh_fam}.")
+
+# 14-masala
+
+
+
+# raqam=input("raqamni kiriting +998")
+
+# print(f"+998 {raqam[:2]} {raqam[2:5]} {raqam[5:7]} {raqam[7:]}")
+
+# 15-masala
+
+# a=int (input("a sonni kiriting: "))
+# b=int (input("b sonni kiriting: "))
+# c=int (input("c sonni kiriting: "))
+
+# katta=0
+# kichik=0
+# orta=0
+
+# if a>b:
+#     if a>c:
+#         katta=a
+#     orta=a
+
+# elif a>c:
+#     orta = a 
+# else:
+#     kichik = a   
+
+# if c>b:
+#     if c>a:
+#         katta=c
+#     orta=c
+
+# elif c>a:
+#     orta = c 
+# else:
+#     kichik = c 
+# if b>c:
+#     if b>a:
+#         katta=b
+#     orta=b
+
+# elif b>a:
+#     orta = b 
+# else:
+#     kichik = b 
+
+# print(f"katta: {katta}, kichik: {kichik}, o'rta: {orta}")
+
+
+#  16- masala
+
+# demon=input("demon: ")
+
+# oxiri=demon[demon.find(".")+1:]
+
+# if oxiri=="uz":
+#     print("uzb sayti")
+
+# elif oxiri=="com":
+#     print("international")
+
+# 17-masala
+
+# height=float(input("bo'y metrda: "))
+# weight=float(input("vazn kg da: "))
+
+# bmi=weight/ (height**2)
+
+# if bmi<18.5:
+#     print("kam vazn")
+# elif 24.9>=bmi>=18.5:
+#     print("normal")
+# elif 29.9>=bmi>=25:
+#     print("ortiqcha vazn")
+# elif bmi>=30:
+#     print("semizlik")
+# else :
+#     print("who are you!!!")
+
+# 18-masala
+
+# matn=input("matn: ")
+
+# son = 0
+
+# for i in matn:
+#     if i in "aouei":
+#         son+=1
+# print(f"unlilar soni: {son}")
+
+# 19-masala
+
+# yosh = int( input ("yosh: "))
+# talaba= bool(input("talabami: "))
+# narx=2000
+# if yosh <=7:
+#     narx=0
+    
+# elif yosh >=60:
+#     narx*=0.5
+# elif talaba:
+#     narx=0.7*narx
+# print(f"umumiy narx - {narx} so'm")
+
+# 20-masala
+
+
+ism=input("Ismingizni kiriting: ")
+familya= input("Familyangizni kiriting: ")
+
+print(f"{ism[:3]}{familya[:4]}")
